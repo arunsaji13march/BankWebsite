@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/balance.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head> 
+<body>
+    <header>
+        <div class='home'>
+            <a href="#"><img src="/home.png" alt="Home"></a>
+        </div>
+        <nav>
+            <ul class="nav_bar">
+                <li><a class="nav_link" href="#">About</a></li>
+                <li><a class="nav_link" href="#">Help</a></li>
+                <li><a class="nav_link" href="#">Contact us</a></li>
+            </ul>
+        </nav>
+        <button class="logout">Logout</button>
+    </header>
+    <main>
+        <section class="balance_section">
+            <div class="main_transaction">
+                <div class="balance">
+                    <h1>Balance</h1>
+                    <div class="Amount"><h1>$ <%= balance %></h1></div>
+                </div>
+                <div class="transaction">
+                    <button type="button" class="transaction_btn" name="button">Withdraw now</button>
+                    <button type="button" class="transaction_btn" name="button" onclick="window.location='transfer';">Transfer now</button>
+                </div>
+            </div>
+            <div class="quote"><h1>WORLD PEACE</h1>
+                <p>There are many factors effectiing  te world peace
+                its helps the wpld to in wold peace,
+                support the Blacks and remove racism from the world</p>
+                </div>
+            </section>
+    </main>
+    
+</body>
+</html>

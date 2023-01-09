@@ -1,0 +1,184 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    background:rgba(0,0,0,0.2) url(./card.jpg);
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-blend-mode: darken;
+}
+
+header{
+    display: flex;
+    top: 0;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    background-color: black;
+    position: sticky;
+    padding-right: 50px;
+    padding-bottom:10px ;
+}
+
+.home,.nav_bar{
+    display: flex;
+}
+
+.balance h1{
+    padding-bottom:10px ;
+    
+  
+}
+.home img:hover{
+    transform: scale(1.2);
+}
+
+.home img{
+    width: 30px;
+}
+.home{
+    flex:2;
+    padding-left: 50px;
+}
+
+nav{
+    flex:1;
+    justify-content: center;
+}
+.nav_bar{
+    justify-content:space-around;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav_link{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400px;
+    color: white;
+}
+
+button{
+    background-color: rgb(0, 140, 255);
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: white;
+    color: rgb(0, 140, 255);
+    transition: 0.2s ease-out;
+}
+
+.nav_link:hover{
+    color:rgb(0, 140, 255) ;
+}
+
+.balance_section{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    min-height: 80vh;
+}
+
+.main{
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 20px;
+
+}
+.main input{
+    /* display: inline-block; */
+    border: none;
+    padding: 10px;
+
+    margin: 10px;
+    margin-left: 10px;
+
+}
+
+
+.main label{
+    /* display: inline-block; */
+    font-size: large;
+    text-align: right;
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+.mainImage{
+    margin: 30px;
+    
+}
+.mainInput{
+    padding: 50px;
+    align-items: center;
+
+}
+
+.mainInputs{
+    padding-bottom: 15px;
+}
+#accno{
+    background-color: black;
+    color: white;
+}
+
+
+.mainImage {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 100%;
+  }
+  
+  .mainImage img {
+    width: 300px;
+    height: 200px;
+    object-fit: fill;
+    transition: all .2s ease-in-out;
+  }
+  .mainImage img:hover{
+      transform: scale(1.5);
+ 
+  } 
+
+.foot{
+    display: flex;
+    justify-content: center;
+    
+}
+.foot button{
+    margin-top: 40px ;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: large;
+}
+
+/* .input{
+    background-color: white;
+} */
+
+
+
+

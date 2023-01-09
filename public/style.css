@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    top: 0;
+    align-items: center;
+    margin: auto;
+    width: 100%;
+    background-color: black;
+    position: sticky;
+    padding-right: 50px;
+}
+
+.home,.nav_bar{
+    display: flex;
+}
+
+.home img{
+    height:5vh;
+}
+
+.home{
+    flex:2;
+    padding-left: 50px;
+}
+
+nav{
+    flex:1;
+    justify-content: center;
+}
+.nav_bar{
+    justify-content:space-around;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav_link{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400px;
+    color: white;
+}
+.nav_link:hover{
+    color:rgb(0, 140, 255) ;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    /* font-family: sans-serif; */
+    font-family: 'Source Sans Pro', sans-serif;
+    background:rgba(0,0,0,0.3) url(./hand.jpg) no-repeat center center fixed;
+    -webkit-background-size:cover;
+    background-size:cover;
+    background-blend-mode: darken;
+}
+
+.section{
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.section1{
+ padding-top: 100px;
+ align-content: center;
+ color:rgb(255, 255, 255);
+ letter-spacing: 2px;
+ /* line-height: 10px; */
+}
+.section h1{
+    padding-left: 100px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.section2{
+    margin: 40px;
+    /* margin-left: 20px; */
+    padding: 50px;
+    background-color: #F4F5F5;
+}
+
+.section2 input{
+    display: block;
+    background-color: #E5E5E5;
+    border: none;
+    padding: 7px;
+    width: 100%;
+    font-size: large;
+
+}
+
+
+.btnLogin{
+    padding: 9px 35px;
+    border: none;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+}
+
+.btnLogin:hover{
+    background-color: #C4C4C4;
+    color: black;
+}
+
+.btnCreate{
+    padding: 9px 35px;
+    border: none;
+    font-size: 15px;
+    background-color: #C4C4C4;
+    border-radius: 20px;
+    transition: all .2s ease-in-out;
+
+}
+.btnCreate:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+@media (max-width:960px) {
+    .section{
+        flex-direction: column;
+    }
+    
+}
+
+ /* body{
+    background-color: goldenrod;
+    color: aqua;
+}  */

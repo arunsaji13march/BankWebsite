@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/transfer.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class='home'>
+            <a href="#"><img src="/home.png" alt="Home"></a>
+        </div>
+        <nav>
+            <ul class="nav_bar">
+                <li><a class="nav_link" href="#">About</a></li>
+                <li><a class="nav_link" href="#">Help</a></li>
+                <li><a class="nav_link" href="#">Contact us</a></li>
+            </ul>
+        </nav>
+        <button class="logout">Logout</button>
+    </header>
+    <main>
+        <section class="transfer">
+            <div class="description">
+                <h1>Enter the details to transfer money</h1><br>
+                <p>A bank is a financial institution that accepts deposits from the public and creates a demand deposit while simultaneously making loans.[1] Lending activities can be directly performed by the bank or indirectly through capital markets.<br><br>
+                    Because banks play an important role in financial stability and the economy of a country, most jurisdictions exercise a high degree of regulation over banks. Most countries have institutionalized a system known as fractional reserve banking</p>
+            </div>
+            <div class="details">
+            <form action="" class="form">
+                <div class="entry">
+                    <label for="Acc.no" class="label">Reciever's Account no:</label>
+                    <input type="number" class='input' id="accno" name="accno"><br>
+                </div>
+                <div class="entry">
+                    <label for="name" class="label">Reciever's Name:</label>
+                    <input type="text" class='input' id="name" name="name"><br>
+                </div>
+                <div class="entry">
+                    <label for="Amount" class="label">Amount:</label>
+                    <input type="number" class='input' id="amount" name="amount"><br>
+                </div>
+                <div class="submit_btn">
+                    <input type="submit" class='submit' value="Send">
+                </div>
+            </form>
+            </div>
+
+        </section>
+    </main>
+    
+</body>
+</html>

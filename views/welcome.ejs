@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <!-- <link rel="stylesheet" href="index.css"> -->
+    <link rel="stylesheet" href="/welcome.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class='home'>
+            <a href="#"><img src="/home.png" alt="Home"></a>
+        </div>
+        <nav>
+            <ul class="nav_bar">
+                <li><a class="nav_link" href="#">About</a></li>
+                <li><a class="nav_link" href="#">Help</a></li>
+                <li><a class="nav_link" href="#">Contact us</a></li>
+            </ul>
+        </nav>
+        <button class="logout">Logout</button>
+    </header>   
+    <main class="main">
+        <div class="mainImage">
+            <img src="/eren.jpg" alt="image">
+        </div>
+        <div class="mainInput">
+
+                <div class="mainInputs">
+                    <label for="accno">AccountNo</label>
+                    <label id="accno" class="input"><%= info.accno %></label>
+                </div>
+
+                <div class="mainInputs">
+                    <label for="name">Name</label>
+                    <label  id="name" class="input"><%= info.name %></label>
+                </div>
+               
+                <div class="mainInputs">
+                    <label for="dob">Age</label>
+                    <label id="dob" class="input"><%= info.age %></label>
+                </div>
+                <div class="mainInputs">
+                    <label for="email">Email</label>
+                    <label id="email" class="input"><%= info.email %></label>
+                </div>
+              
+                <div class="mainInputs">
+                    <label for="phone">Phone</label>
+                    <label id="phone" class="input"><%= info.phone%></label>
+                </div>
+                <div class="mainInputs"> 
+                    <label for="address">Address</label>
+                    <label id="address" class="input"><%= info.address %></label>
+                </div>
+
+        </div>
+    </main>
+
+    <footer class="foot">
+        <div class="footBtn">
+            <button>Deposit</button>
+        </div>
+        
+        <div class="footBtn">
+            <button type="button" onclick="window.location='balance';">Balance</button>
+        </div>
+
+        <div class="footBtn">
+            <button>Credit</button>
+        </div>
+
+        <div class="footBtn">
+            <button type="button" onclick="window.location='transfer';">Transfer</button>
+        </div>
+    </footer>
+    <script src="/database.js"></script>
+</body>
+</html>
